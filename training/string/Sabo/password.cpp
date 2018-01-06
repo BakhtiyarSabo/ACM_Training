@@ -28,21 +28,13 @@ int main(){
 	ll res = 0;
 
 	for(int l = n; l >= 1; l--){
-		vector <ll> hs(n - l + 1);
-		for(int i = 0; i < n - l + 1; i++){
-			ll ch = h[i + l - 1];
-			if(i) ch -= h[i-1];
-			ch *= p[n - i - 1];
-			hs[i] = ch;
-		}
-		sort(hs.begin(), hs.end());
-		hs.erase(unique(hs.begin(), hs.end()), hs.end());
-
-
-
-		res += int(hs.size());
-		cout << res << endl;
+		for(int i = 0; i < n; i++){
+			
+		}	
 	}
+
+
+
 
 
 
