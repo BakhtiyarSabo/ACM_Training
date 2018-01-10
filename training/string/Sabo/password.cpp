@@ -69,9 +69,11 @@ int main(){
 	// }
 
 	int l = 0; r = pp; 
+	cout << "asdasd" << pp << endl;
 	int mid;
-	while(r - l > 1){
+	while(l < r){
 		mid = (l + r) >> 1;
+		cout << arr[mid] << ' ';
 		if(check(arr[mid])) l = mid;
 		else r = mid;
 	}
