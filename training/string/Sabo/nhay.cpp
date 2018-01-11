@@ -19,6 +19,10 @@ inline void calc_p(){
 	for(int i = 1; i < 1000009; i++) p[i] = p[i-1] * P;
 }
 
+
+// NHAY - A Needle in the Haystack
+// http://www.spoj.com/problems/NHAY/
+
 inline void solve(){
 	cin >> t >> s;
 	H = 0;

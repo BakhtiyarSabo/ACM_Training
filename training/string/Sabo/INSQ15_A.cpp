@@ -32,6 +32,10 @@ ull h[5*maxn + 10], p[5*maxn + 10];
 int q, n;
 string s;
 
+// The Gift Of Raksha Bandhan
+// https://www.codechef.com/problems/INSQ15_A
+
+
 vector<int> zf(){
 	vector<int> z(n);
 	int L = 0, R = 0;

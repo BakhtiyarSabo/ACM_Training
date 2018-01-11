@@ -31,6 +31,9 @@ inline void calc_p(){
 	}
 }
 
+// SUB_PROB - Substring Problem
+// http://www.spoj.com/problems/SUB_PROB/
+
 vector <pair <int, ll> > HASSS;
 
 

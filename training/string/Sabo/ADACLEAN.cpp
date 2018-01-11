@@ -27,6 +27,9 @@ ll ans = 0;
 
 int q, k, n;
 string s;
+// ADACLEAN - Ada and Spring Cleaning
+// http://www.spoj.com/problems/ADACLEAN/
+
 
 inline void solve(){
 	scanf("%d%d", &n, &k);
